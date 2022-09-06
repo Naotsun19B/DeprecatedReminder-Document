@@ -1,4 +1,4 @@
-# GraphMinimap
+# DeprecatedReminder
 
 ![Plugin](https://user-images.githubusercontent.com/51815450/188594589-cce05730-fd2c-47b1-afe6-0e521d8d72fc.png)
 

@@ -1,4 +1,4 @@
-# GraphMinimap
+# DeprecatedReminder
 
 ![Plugin](https://user-images.githubusercontent.com/51815450/188594589-cce05730-fd2c-47b1-afe6-0e521d8d72fc.png)
 
@@ -25,8 +25,8 @@
 
 ## Description
 
-A plugin that allows you to set due date for code, actors, etc., and manage items that have expired due date.  
-You can detect when the due date has expired and generate an error or display a warning when compiling or cooking.  
+This plugin allows you to set reminders for code and assets and manage the reminders that have been set.  
+Overdue items can trigger warnings or errors at compile time or cook time.    
 
 ## Requirement
 
