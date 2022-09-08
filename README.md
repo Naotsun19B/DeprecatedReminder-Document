@@ -106,6 +106,12 @@ Items that can be set due dates and the context menu are as follows.
 | 4          | Updates the already set reminder information with the data currently set to 1 and 2. |
 | 5          | Delete the reminder that has been set.                                               |
 
+Reminders are embedded in the package containing the object, so functionality is not available without a valid package.  
+For example, an actor placed in an unsaved level.    
+If the following warning is displayed, save the target asset and open the context menu again.
+
+![ContextMenuWarning](https://user-images.githubusercontent.com/51815450/189023687-44bcec86-4d61-42a4-a2f3-02b5f74a7213.png)
+
 If there is an expired one, a warning or error will occur when cooking as follows.
 
 ![AssetWarning](https://user-images.githubusercontent.com/51815450/188565127-d09d1556-8e6a-4a03-a124-601a2cbb4d6b.png)
