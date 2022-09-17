@@ -35,7 +35,8 @@ Target platform : Windows
 
 ## Installation
 
-IN PREPARATION
+Install from the [marketplace](https://www.unrealengine.com/marketplace/en-US/product/deprecated-reminder).  
+If the feature is not available after installing the plugin, it is possible that the plugin has not been enabled, so please check if the plugin is enabled from Edit > Plugins.
 
 ## Features And Usages
 
@@ -208,4 +209,5 @@ Override and implement the following functions as necessary in the inherited cla
 
 ## History
 
-IN PREPARATION
+- (2022/09/17) v1.0
+  Publish plugin  
