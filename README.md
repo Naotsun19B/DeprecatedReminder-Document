@@ -209,5 +209,9 @@ Override and implement the following functions as necessary in the inherited cla
 
 ## History
 
+- (2022/**/**) v1.1   
+  Fixed so that unnecessary rebuilds do not occur  
+  Improved so that operations such as creating or deleting reminders on the editor can be undo/redo
+
 - (2022/09/17) v1.0
   Publish plugin  
