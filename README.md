@@ -30,7 +30,7 @@ Overdue items can trigger warnings or errors at compile time or cook time.
 
 ## Requirement
 
-Target version : UE4.26 ～ 5.0    
+Target version : UE4.26 ～ 5.1    
 Target platform : Windows
 
 ## Installation
@@ -209,7 +209,10 @@ Override and implement the following functions as necessary in the inherited cla
 
 ## History
 
-- (2022/**/**) v1.1   
+- (2022/11/08) v1.2   
+  Added support for UE5.1  
+
+- (2022/10/23) v1.1   
   Fixed so that unnecessary rebuilds do not occur  
   Improved so that operations such as creating or deleting reminders on the editor can be undo/redo
 
