@@ -13,6 +13,7 @@
     * [Actor](#Actor)
     * [Node](#Node)
     * [How To Use The Context Menu](#How-To-Use-The-Context-Menu)
+* [Content Browser Filter](#Content-Browser-Filter)
 * [Deprecated Reminder Manager](#Deprecated-Reminder-Manager)
 * [Meta Specifier](#Meta-Specifier)
   * [Worker Name Meta Specifier](#Worker-Name-Meta-Specifier)
@@ -30,7 +31,7 @@ Overdue items can trigger warnings or errors at compile time or cook time.
 
 ## Requirement
 
-Target version : UE4.26 ～ 5.1    
+Target version : UE4.26 ～ 5.2    
 Target platform : Windows
 
 ## Installation
@@ -119,6 +120,12 @@ If there is an expired one, a warning or error will occur when cooking as follow
 ![AssetError](https://user-images.githubusercontent.com/51815450/188565134-6c0797ac-3cb5-4180-8d20-5dce0744ec6f.png)
 
 You can change the behavior from the editor preferences described later.
+
+## Content Browser Filter
+
+![ContentBrowserFilter](https://github.com/Naotsun19B/DeprecatedReminder-Document/assets/51815450/5c5acd6c-7902-452e-be4f-c54f87d7a5e3)
+
+A Content Browser filter is available to show only assets that contain reminders.
 
 ## Deprecated Reminder Manager
 
@@ -209,6 +216,10 @@ Override and implement the following functions as necessary in the inherited cla
 
 ## History
 
+- (2023/05/12) v1.3   
+  Added support for UE5.2  
+  Added content browser filter to only show assets containing reminders  
+
 - (2022/11/08) v1.2   
   Added support for UE5.1  
 
@@ -216,5 +227,5 @@ Override and implement the following functions as necessary in the inherited cla
   Fixed so that unnecessary rebuilds do not occur  
   Improved so that operations such as creating or deleting reminders on the editor can be undo/redo
 
-- (2022/09/17) v1.0
+- (2022/09/17) v1.0  
   Publish plugin  
