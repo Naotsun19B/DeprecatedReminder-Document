@@ -31,7 +31,7 @@ Overdue items can trigger warnings or errors at compile time or cook time.
 
 ## Requirement
 
-Target version : UE4.26 ～ 5.2    
+Target version : UE4.26 ～ 5.3    
 Target platform : Windows
 
 ## Installation
@@ -215,6 +215,9 @@ Override and implement the following functions as necessary in the inherited cla
 [Naotsun](https://twitter.com/Naotsun_UE)
 
 ## History
+
+- (2023/09/09) v1.4  
+  Added support for UE5.3  
 
 - (2023/05/12) v1.3   
   Added support for UE5.2  
