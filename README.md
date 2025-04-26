@@ -31,7 +31,7 @@ Overdue items can trigger warnings or errors at compile time or cook time.
 
 ## Requirement
 
-Target version : UE4.26 ～ 5.3    
+Target version : UE4.27 ～ 5.5    
 Target platform : Windows
 
 ## Installation
@@ -201,21 +201,27 @@ Override and implement the following functions as necessary in the inherited cla
 
 ![Settings](https://user-images.githubusercontent.com/51815450/188559913-7d9f9c5c-7e21-4686-addb-6dba1197fb9d.png)
 
-| **Category** | **Item**                                    | **Description**                                                                                                                                                                                                 |
-|--------------|---------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Verbosity    | Deprecated Remind Verbosity At Cook Time    | What to do at cook time for expired elements.                                                                                                                                                                   |
-|              | Deprecated Remind Verbosity At Compile Time | What to do at compile time for expired code. (Only available in codebase projects)                                                                                                                              |
-| Search Scope | Search Into Engine Contents                 | Whether to search for deprecated reminders in engine contents as well. If true, it is recommended not to use it because the search time may increase significantly.                                             |
-|              | Search Into Engine Codes                    | Whether to search for deprecated reminder macros in the engine code as well. If true, it is recommended not to use it because the search time may increase significantly. (Only available in codebase projects) |
-| Misc         | Warn When Due Date Is Approaching           | Whether to warn when the due date is approaching.                                                                                                                                                               |
-|              | Remaining Time To Warn                      | The amount of time remaining until the due date for which a warning is required.                                                                                                                                |
-|              | Period Presets                              | The list of preset names and durations that appear in the due date settings menu when setting a reminder.                                                                                                       |
+| **Category**                | **Item**                                    | **Description**                                                                                                                                                                                                 |
+|-----------------------------|---------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Verbosity                   | Deprecated Remind Verbosity At Cook Time    | What to do at cook time for expired elements.                                                                                                                                                                   |
+|                             | Deprecated Remind Verbosity At Compile Time | What to do at compile time for expired code. (Only available in codebase projects)                                                                                                                              |
+| Search Scope                | Search Into Engine Contents                 | Whether to search for deprecated reminders in engine contents as well. If true, it is recommended not to use it because the search time may increase significantly.                                             |
+|                             | Search Into Engine Codes                    | Whether to search for deprecated reminder macros in the engine code as well. If true, it is recommended not to use it because the search time may increase significantly. (Only available in codebase projects) |
+| Misc                        | Warn When Due Date Is Approaching           | Whether to warn when the due date is approaching.                                                                                                                                                               |
+|                             | Remaining Time To Warn                      | The amount of time remaining until the due date for which a warning is required.                                                                                                                                |
+| Deprecated Reminder Manager | Difference From Due Date Format             | The date and time format to be displayed in the difference from due date field of deprecated reminder manager. There are four possible contexts: Day Hour Minute Second.                                        |
+| Context Menu                | Period Presets                              | The list of preset names and durations that appear in the due date settings menu when setting a reminder.                                                                                                       |
 
 ## Author
 
 [Naotsun](https://twitter.com/Naotsun_UE)
 
 ## History
+
+- (2025/04/26) v1.6  
+  Added support for UE5.5   
+  Support before UE4.26 has been discontinued  
+  Added a function that allows you to change the format of the Difference From Due Date in Deprecated Reminder Manager  
 
 - (2024/04/24) v1.5  
   Added support for UE5.4  

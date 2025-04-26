@@ -31,7 +31,7 @@
 
 ## 動作環境
 
-対象バージョン : UE4.26 ～ 5.3    
+対象バージョン : UE4.27 ～ 5.5    
 対象プラットフォーム : Windows
 
 ## インストール
@@ -201,21 +201,27 @@ Tools(UE4ではWindow)メニューからマネージャーを起動すること�
 
 ![Settings](https://user-images.githubusercontent.com/51815450/188559913-7d9f9c5c-7e21-4686-addb-6dba1197fb9d.png)
 
-| **カテゴリ**     | **項目**                                      | **説明**                                                                                      |
-|--------------|---------------------------------------------|---------------------------------------------------------------------------------------------|
-| Verbosity    | Deprecated Remind Verbosity At Cook Time    | クック時に期限切れのものがあった際の動作を指定します。                                                                 |
-|              | Deprecated Remind Verbosity At Compile Time | コンパイル時に期限切れのコードがあった際の動作を指定します。 (C++プロジェクトでのみ利用可能)                                           |
-| Search Scope | Search Into Engine Contents                 | エンジンコンテンツ内のアセットにもリマインダが設定されているかチェックするかどうかを指定します。検索時間が大幅に増加する可能性があるため必要な場合のみご利用ください。         |
-|              | Search Into Engine Codes                    | エンジンコードにもリマインダマクロがないかチェックするかどうかを指定します。検索時間が大幅に増加する可能性があるため必要な場合のみご利用ください。(C++プロジェクトでのみ利用可能) |
-| Misc         | Warn When Due Date Is Approaching           | 期日が近づいたときに警告するかどうかを指定します。                                                                   |
-|              | Remaining Time To Warn                      | 警告が必要な期日までの残り時間を指定します。                                                                      |
-|              | Period Presets                              | リマインダを設定する際の期日を設定するメニューに表示されるプリセット。                                                         |
+| **カテゴリ**                    | **項目**                                      | **説明**                                                                                                    |
+|-----------------------------|---------------------------------------------|-----------------------------------------------------------------------------------------------------------|
+| Verbosity                   | Deprecated Remind Verbosity At Cook Time    | クック時に期限切れのものがあった際の動作を指定します。                                                                               |
+|                             | Deprecated Remind Verbosity At Compile Time | コンパイル時に期限切れのコードがあった際の動作を指定します。 (C++プロジェクトでのみ利用可能)                                                         |
+| Search Scope                | Search Into Engine Contents                 | エンジンコンテンツ内のアセットにもリマインダが設定されているかチェックするかどうかを指定します。検索時間が大幅に増加する可能性があるため必要な場合のみご利用ください。                       |
+|                             | Search Into Engine Codes                    | エンジンコードにもリマインダマクロがないかチェックするかどうかを指定します。検索時間が大幅に増加する可能性があるため必要な場合のみご利用ください。(C++プロジェクトでのみ利用可能)               |
+| Misc                        | Warn When Due Date Is Approaching           | 期日が近づいたときに警告するかどうかを指定します。                                                                                 |
+|                             | Remaining Time To Warn                      | 警告が必要な期日までの残り時間を指定します。                                                                                    |
+| Deprecated Reminder Manager | Difference From Due Date Format             | Deprecated Reminder ManagerのDifference From Due Dateのフォーマットを指定します。使用できるコンテキストは Day、Hour、Minute、Second です。 |
+| Context Menu                | Period Presets                              | リマインダを設定する際の期日を設定するメニューに表示されるプリセット。                                                                       |
 
 ## 作者
 
 [Naotsun](https://twitter.com/Naotsun_UE)
 
 ## 履歴
+
+- (2025/04/26) v1.6  
+  UE5.5に対応しました  
+  UE4.26以前のサポートを打ち切りました  
+  Deprecated Reminder ManagerのDifference From Due Dateのフォーマットを変更できるようにしました  
 
 - (2024/04/24) v1.5  
   UE5.4に対応しました  
