@@ -1,3 +1,7 @@
+![UE Version](https://img.shields.io/badge/Unreal%20Engine-4.27--5.7-0e1128?logo=unrealengine&logoColor=white)
+[![License: Fab Standard License (Fab EULA)](https://img.shields.io/badge/license-Fab%20Standard%20License%20%28Fab%20EULA%29-blue)](https://www.fab.com/eula)
+[![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/Naotsun_UE?style=social)](https://twitter.com/Naotsun_UE)
+
 # DeprecatedReminder
 
 ![Plugin](https://user-images.githubusercontent.com/51815450/188594589-cce05730-fd2c-47b1-afe6-0e521d8d72fc.png)
@@ -20,6 +24,7 @@
   * [Description Meta Specifier](#Description-Meta-Specifier)
   * [独自のメタ指定子](#独自のメタ指定子)
 * [オプション](#オプション)
+* [ライセンス](#ライセンス)
 * [作者](#作者)
 * [履歴](#履歴)
 <!--te-->
@@ -211,6 +216,12 @@ Tools(UE4ではWindow)メニューからマネージャーを起動すること�
 |                             | Remaining Time To Warn                      | 警告が必要な期日までの残り時間を指定します。                                                                                    |
 | Deprecated Reminder Manager | Difference From Due Date Format             | Deprecated Reminder ManagerのDifference From Due Dateのフォーマットを指定します。使用できるコンテキストは Day、Hour、Minute、Second です。 |
 | Context Menu                | Period Presets                              | リマインダを設定する際の期日を設定するメニューに表示されるプリセット。                                                                       |
+
+## ライセンス
+
+本リポジトリはドキュメントのみを含みます。プラグイン本体のソースコード／バイナリは含みません。  
+プラグイン本体は Fab 上で配布され、利用者には [Fab Standard License (Fab EULA)](https://www.fab.com/ja/eula) に基づいて提供されます。  
+特に明記がない限り、本リポジトリ内のドキュメントの著作権は © 2022-2026 Naotsun に帰属し、無断転載は禁止です。
 
 ## 作者
 

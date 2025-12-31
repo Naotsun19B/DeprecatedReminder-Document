@@ -1,3 +1,7 @@
+![UE Version](https://img.shields.io/badge/Unreal%20Engine-4.27--5.7-0e1128?logo=unrealengine&logoColor=white)
+[![License: Fab Standard License (Fab EULA)](https://img.shields.io/badge/license-Fab%20Standard%20License%20%28Fab%20EULA%29-blue)](https://www.fab.com/eula)
+[![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/Naotsun_UE?style=social)](https://twitter.com/Naotsun_UE)
+
 # DeprecatedReminder
 
 ![Plugin](https://user-images.githubusercontent.com/51815450/188594589-cce05730-fd2c-47b1-afe6-0e521d8d72fc.png)
@@ -20,6 +24,7 @@
   * [Description Meta Specifier](#Description-Meta-Specifier)
   * [Custom Meta Specifier](#Custom-Meta-Specifier)
 * [Settings](#Settings)
+* [License](#license)
 * [Author](#Author)
 * [History](#History)
 <!--te-->
@@ -211,6 +216,12 @@ Override and implement the following functions as necessary in the inherited cla
 |                             | Remaining Time To Warn                      | The amount of time remaining until the due date for which a warning is required.                                                                                                                                |
 | Deprecated Reminder Manager | Difference From Due Date Format             | The date and time format to be displayed in the difference from due date field of deprecated reminder manager. There are four possible contexts: Day Hour Minute Second.                                        |
 | Context Menu                | Period Presets                              | The list of preset names and durations that appear in the due date settings menu when setting a reminder.                                                                                                       |
+
+## License
+
+This repository contains documentation only. No plugin source code or binaries are provided here.  
+The plugin itself is distributed on Fab and is licensed to end users under the [Fab Standard License (Fab EULA)](https://www.fab.com/eula).  
+Unless explicitly stated otherwise, all documentation content in this repository is © 2022-2026 Naotsun. All rights reserved.
 
 ## Author
 
