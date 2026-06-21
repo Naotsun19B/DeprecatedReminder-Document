@@ -1,4 +1,4 @@
-![UE Version](https://img.shields.io/badge/Unreal%20Engine-4.27--5.7-0e1128?logo=unrealengine&logoColor=white)
+![UE Version](https://img.shields.io/badge/Unreal%20Engine-4.27--5.8-0e1128?logo=unrealengine&logoColor=white)
 [![License: Fab Standard License (Fab EULA)](https://img.shields.io/badge/License-Fab%20Standard%20License%20%28Fab%20EULA%29-blue)](https://www.fab.com/eula)
 [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/Naotsun_UE?style=social)](https://twitter.com/Naotsun_UE)
 
@@ -36,7 +36,7 @@
 
 ## 動作環境
 
-対象バージョン : UE4.27 ～ 5.7    
+対象バージョン : UE4.27 ～ 5.8    
 対象プラットフォーム : Windows
 
 ## インストール
@@ -228,6 +228,11 @@ Tools(UE4ではWindow)メニューからマネージャーを起動すること�
 [Naotsun](https://twitter.com/Naotsun_UE)
 
 ## 履歴
+
+- (2026/06/21) v1.9  
+  UE5.8に対応しました  
+  アセットから全てのリマインダを削除した際に、コンテンツブラウザフィルタの判定が更新されない不具合を修正しました  
+  Deprecated Reminder Managerやリマインダ操作時の応答性を改善しました  
 
 - (2025/11/19) v1.8  
   UE5.7に対応しました  

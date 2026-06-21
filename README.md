@@ -1,4 +1,4 @@
-![UE Version](https://img.shields.io/badge/Unreal%20Engine-4.27--5.7-0e1128?logo=unrealengine&logoColor=white)
+![UE Version](https://img.shields.io/badge/Unreal%20Engine-4.27--5.8-0e1128?logo=unrealengine&logoColor=white)
 [![License: Fab Standard License (Fab EULA)](https://img.shields.io/badge/License-Fab%20Standard%20License%20%28Fab%20EULA%29-blue)](https://www.fab.com/eula)
 [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/Naotsun_UE?style=social)](https://twitter.com/Naotsun_UE)
 
@@ -36,7 +36,7 @@ Overdue items can trigger warnings or errors at compile time or cook time.
 
 ## Requirement
 
-Target version : UE4.27 ～ 5.7    
+Target version : UE4.27 ～ 5.8    
 Target platform : Windows
 
 ## Installation
@@ -228,6 +228,11 @@ Unless explicitly stated otherwise, all documentation content in this repository
 [Naotsun](https://twitter.com/Naotsun_UE)
 
 ## History
+
+- (2026/06/21) v1.9  
+  Added support for UE5.8  
+  Fixed a bug where the Content Browser filter kept flagging assets after all of their reminders were removed  
+  Improved the responsiveness of Deprecated Reminder Manager and reminder editing operations  
 
 - (2025/11/19) v1.8  
   Added support for UE5.7
